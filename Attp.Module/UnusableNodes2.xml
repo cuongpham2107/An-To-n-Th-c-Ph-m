@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="GiayChungNhanATTP_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="GiayChungNhanATTP">
+              <LayoutGroup Id="GiayChungNhanATTP_col1">
+                <LayoutItem Id="XepLoaiThamDinh" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="GiayChungNhanATTP_col2">
+                <LayoutItem Id="PheDuyet" RelativeSize="24.285714285714285" Index="4" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

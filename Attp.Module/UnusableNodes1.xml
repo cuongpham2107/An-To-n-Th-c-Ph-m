@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="DuLieuKiemTraCSSX_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="46.95945945945946">
+            <LayoutGroup Id="DuLieuKiemTraCSSX" Caption="Dữ liệu kiểm tra cơ sở sản xuất" RelativeSize="100">
+              <LayoutGroup Id="DuLieuKiemTraCSSX_col1" RelativeSize="50">
+                <LayoutItem Id="DanhMucCoSoSanXuatKinhDoanh" RelativeSize="14.40677966101695" />
+                <LayoutItem Id="CoQuanQuanLy" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="NgayKiemTra" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="HinhThucKiemTra" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="KetQua" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="XuLyViPham" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="HanhViViPham" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="SoTienPhat" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="TongSoMauLay" RelativeSize="14.40677966101695" />
+              </LayoutGroup>
+              <LayoutGroup Id="DuLieuKiemTraCSSX_col2" RelativeSize="50">
+                <LayoutItem Id="SoMauViPham" RelativeSize="14.40677966101695" />
+                <LayoutItem Id="ChiTieuViPham" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="GhiChu" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="KyBaoCaoThang" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="KyBaoCaoQuy" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="KyBaoCaoSauThang" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="KyBaoCaoNam" RelativeSize="10.169491525423728" />
+                <LayoutItem Id="PheDuyet" RelativeSize="24.576271186440678" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="53.04054054054054">
+            <LayoutItem Id="AuditTrail" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="GiayChungNhanATTP_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="GiayChungNhanATTP">
+              <LayoutGroup Id="GiayChungNhanATTP_col1">
+                <LayoutItem Id="KetQuaThamDinhCSSXKD" RelativeSize="24.285714285714285" />
+              </LayoutGroup>
+              <LayoutGroup Id="GiayChungNhanATTP_col2">
+                <LayoutItem Id="XepLoai" RelativeSize="24.285714285714285" />
+                <LayoutItem Id="NgayThamDinh" RelativeSize="17.142857142857142" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DanhMucCoSoSanXuatKinhDoanh_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DanhMucCoSoSanXuatKinhDoanh">
+              <LayoutGroup Id="DanhMucCoSoSanXuatKinhDoanh_col2">
+                <LayoutItem Id="NgayKiemTraGanNhat" RelativeSize="10.084033613445378" />
+                <LayoutItem Id="KetQuaKiemTra" RelativeSize="10.084033613445378" />
+                <LayoutItem Id="LanKiemTraTiepTheo" RelativeSize="10.084033613445378" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="DuLieuKiemTraCSSXs" RelativeSize="100">
+              <LayoutItem Id="DuLieuKiemTraCSSXs" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="KetQuaThamDinhCSSXKD_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="FileDLs_Group" Direction="Vertical" RelativeSize="39.020270270270274">
+            <LayoutItem Id="FileDLs" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="KetQuaThamDinhCSSXKD">
+              <LayoutGroup Id="KetQuaThamDinhCSSXKD_col2">
+                <LayoutItem Id="DanhMucCoSoSanXuatKinhDoanh" RelativeSize="36.95652173913044" />
+                <LayoutItem Id="XepLoai" RelativeSize="36.95652173913044" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="KetQuaThanhKiemTraCSSX_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="FileDLs_Group" Direction="Vertical" RelativeSize="39.020270270270274">
+            <LayoutItem Id="FileDLs" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="KetQuaThanhKiemTraCSSX">
+              <LayoutGroup Id="KetQuaThanhKiemTraCSSX_col1">
+                <LayoutItem Id="NgayThamDinh" RelativeSize="36.95652173913044" />
+              </LayoutGroup>
+              <LayoutGroup Id="KetQuaThanhKiemTraCSSX_col2">
+                <LayoutItem Id="XepLoai" RelativeSize="36.95652173913044" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="KyBaoCaoThang_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs" RelativeSize="77.36486486486487">
+            <LayoutGroup Id="DuLieuKiemTraCSSXs" RelativeSize="100">
+              <LayoutItem Id="DuLieuKiemTraCSSXs" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuditTrail" RelativeSize="100">
+              <LayoutItem Id="AuditTrail" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

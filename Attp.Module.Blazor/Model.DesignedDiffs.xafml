@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Quản lý cấp GCN ATTP" Logo="FinishMerge" Company="Sở Nông nghiệp và Phát triển Nông thôn tỉnh Bắc Giang" Description="Phần mềm Quản lý cấp giấy chứng nhận đủ điều kiện an toàn thực phẩm" Copyright="KennaTech JSC." PreferredLanguage="vi">
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="21.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="21.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

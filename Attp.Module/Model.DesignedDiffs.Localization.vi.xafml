@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="ChangePasswordByUser" Caption="Thay đổi mật khẩu" />
+      <Action Id="Delete" Caption="Xoá" />
+      <Action Id="DialogClose" Caption="Đóng" />
+      <Action Id="FullTextSearch" NullValuePrompt="Từ khoá tìm kiếm..." />
+      <Action Id="New" Caption="Tạo mới" />
+      <Action Id="Refresh" Caption="Tải lại" />
+      <Action Id="RefreshAction" Caption="Tải lại" />
+      <Action Id="ReportViewerDialogControllerV2_Close" Caption="Đóng" />
+      <Action Id="Save" Caption="Lưu" />
+      <Action Id="SaveAndClose" Caption="Lưu và Đóng" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="Save" Caption="Lưu" />
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyObjectPermissionsObject">
+      <OwnMembers>
+        <Member Name="DeleteState" Caption="Xoá" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyTypePermissionObject">
+      <OwnMembers>
+        <Member Name="DeleteState" Caption="Xoá" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="DialogButtons">
+      <LocalizationItem Name="Close" Value="Đóng" />
+      <LocalizationItem Name="Delete" Value="Xoá" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ObjectAccess">
+        <LocalizationItem Name="Delete" Value="Xoá" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.SecurityRequestOperations">
+        <LocalizationItem Name="Delete" Value="Xoá" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Messages">
+      <LocalizationItem Name="Delete" Value="Xoá" />
+    </LocalizationGroup>
+  </Localization>
+  <Validation>
+    <Contexts>
+      <ValidationContext Id="Delete" Caption="Xoá" />
+      <ValidationContext Id="Save" Caption="Lưu" />
+    </Contexts>
+  </Validation>
+  <Views>
+    <DetailView Id="DanhMucCoSoSanXuatKinhDoanh_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DanhMucCoSoSanXuatKinhDoanh">
+              <LayoutGroup Id="DanhMucCoSoSanXuatKinhDoanh_col2">
+                <LayoutGroup Id="Item1" Caption="Thẩm định" />
+                <LayoutGroup Id="Item2" Caption="Thanh kiểm tra" />
+                <LayoutGroup Id="Item3" Caption="Giấy chứng nhận" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SuPhatHanhChinh_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SuPhatHanhChinh" Caption="Sử phạt hành chính" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

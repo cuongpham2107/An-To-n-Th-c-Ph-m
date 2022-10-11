@@ -1,0 +1,9 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/DevExpress.Blazor" Path="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.blazor\21.2.3\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/DevExpress.Blazor.Dashboard" Path="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.blazor.dashboard\21.2.3\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/DevExpress.Blazor.Reporting.JSBasedControls" Path="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.blazor.reporting.jsbasedcontrols\21.2.3\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/DevExpress.Blazor.RichEdit" Path="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.blazor.richedit\21.2.3\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/DevExpress.ExpressApp.Blazor" Path="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.expressapp.blazor\21.2.3\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/DevExpress.ExpressApp.Dashboards.Blazor" Path="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.expressapp.dashboards.blazor\21.2.3\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/DevExpress.ExpressApp.Office.Blazor" Path="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.expressapp.office.blazor\21.2.3\build\..\staticwebassets\" />
+</StaticWebAssets>

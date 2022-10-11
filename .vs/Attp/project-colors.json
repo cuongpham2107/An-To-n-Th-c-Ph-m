@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6374636b-47ba-4527-a84d-f0f615115944": {
+      "ProjectGuid": "6374636b-47ba-4527-a84d-f0f615115944",
+      "DisplayName": "Attp.Module",
+      "ColorIndex": 0
+    },
+    "f7c17e95-530f-4df5-a1af-160f55772af0": {
+      "ProjectGuid": "f7c17e95-530f-4df5-a1af-160f55772af0",
+      "DisplayName": "Attp.Blazor.Server",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

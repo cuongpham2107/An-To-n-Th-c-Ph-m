@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application PreferredLanguage="vi" Title="Quản lý cấp giấy chứng nhận đủ điều kiện an toàn thực phẩm" Company="Sở Nông nghiệp và Phát triển Nông thôn tỉnh Bắc Giang" Logo="FinishMerge">
+  <NavigationItems StartupNavigationItem="CoSoSanXuatKinhDoanh_ListView">
+    <Items>
+      <Item Id="Báo cáo">
+        <Items>
+          <Item Id="BaoCaoNam_ListView" Index="0" />
+          <Item Id="BaoCaoSauThang_ListView" Index="1" />
+        </Items>
+      </Item>
+      <Item Id="Default" Caption="Quản trị">
+        <Items>
+          <Item Id="ApplicationUser_ListView" Caption="Tài khoản" />
+          <Item Id="MyDetails" Caption="Chi tiết tài khoản" />
+          <Item Id="PermissionPolicyRole_ListView" Caption="Nhóm người dùng" />
+        </Items>
+      </Item>
+      <Item Id="Quản lý dữ liệu">
+        <Items>
+          <Item Id="FileDuLieu_ListView" Index="0" />
+          <Item Id="KeHoachThamDinh_ListView" Index="1" />
+          <Item Id="KeHoachThanhKiemTra_ListView" Index="2" />
+          <Item Id="DuLieuKiemTraCSSXKD_ListView" Index="3" />
+          <Item Id="GiayChungNhan_ListView" Index="4" />
+          <Item Id="VanBanChiDao_ListView" Index="5" />
+          <Item Id="HoatDongSanPhamTruyenThong_ListView" Index="6" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Caption="In ấn - xuất dữ liệu">
+        <Items>
+          <Item Id="Dashboards" Visible="False" />
+          <Item Id="ReportsV2" Caption="Báo cáo" />
+        </Items>
+      </Item>
+      <Item Id="State Machine" Visible="False" />
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="21.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="21.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="ApplicationUser_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Roles_Group" Removed="True" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="BaoCaoNam_DuLieuKiemTraCSSXKDs_ListView" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="CoQuanQuanLy" SortOrder="None" GroupIndex="-1" />
+      </Columns>
+    </ListView>
+    <ListView Id="BaoCaoNam_GiayChungNhans_ListView" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="CoQuanQuanLy" SortOrder="None" GroupIndex="-1" />
+      </Columns>
+    </ListView>
+    <ListView Id="BaoCaoNam_HoatDongSanPhamTruyenThongs_ListView" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="SoLuong" Width="104" />
+        <ColumnInfo Id="SoNguoiThamDu" Width="125" />
+        <ColumnInfo Id="NgayBatdau" Width="105" />
+      </Columns>
+    </ListView>
+    <ListView Id="BaoCaoNam_KeHoachThamDinhs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoNam_KeHoachThanhKiemTras_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoNam_VanBanChiDaos_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoQuy_DuLieuKiemTraCSSXKDs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoQuy_GiayChungNhans_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoQuy_HoatDongSanPhamTruyenThongs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoQuy_KeHoachThamDinhs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoQuy_KeHoachThanhKiemTras_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoQuy_ListView" ShowAutoFilterRow="False" IsGroupPanelVisible="True" AutoExpandAllGroups="True">
+      <Columns>
+        <ColumnInfo Id="Nam" SortOrder="Ascending" GroupIndex="0" />
+      </Columns>
+    </ListView>
+    <ListView Id="BaoCaoQuy_VanBanChiDaos_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoSauThang_DuLieuKiemTraCSSXKDs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoSauThang_GiayChungNhans_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoSauThang_HoatDongSanPhamTruyenThongs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoSauThang_KeHoachThamDinhs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoSauThang_KeHoachThanhKiemTras_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="BaoCaoSauThang_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="False">
+      <Columns>
+        <ColumnInfo Id="Nam" SortOrder="Ascending" GroupIndex="0" />
+      </Columns>
+    </ListView>
+    <ListView Id="BaoCaoSauThang_VanBanChiDaos_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="CoQuanQuanLy_CoSoSanXuatKinhDoanhs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="CoSoSanXuatKinhDoanh_KeHoachThamDinhs_ListView" IsGroupPanelVisible="False" />
+    <ListView Id="CoSoSanXuatKinhDoanh_KeHoachThanhKiemTras_ListView" IsGroupPanelVisible="False" />
+    <ListView Id="CoSoSanXuatKinhDoanh_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="False" DataAccessMode="Client">
+      <Columns>
+        <ColumnInfo Id="CoQuanQuanLy" SortOrder="None" GroupIndex="-1" />
+      </Columns>
+    </ListView>
+    <ListView Id="DuLieuKiemTraCSSXKD_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="False">
+      <Columns>
+        <ColumnInfo Id="CoQuanQuanLy" SortOrder="None" GroupIndex="-1" />
+      </Columns>
+    </ListView>
+    <ListView Id="GiayChungNhan_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="False">
+      <Columns>
+        <ColumnInfo Id="CoQuanQuanLy" SortOrder="None" GroupIndex="-1" />
+      </Columns>
+    </ListView>
+    <ListView Id="HoatDongSanPhamTruyenThong_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="KeHoachThamDinh_ListView" AutoExpandAllGroups="True" DataAccessMode="Client" IsGroupPanelVisible="True" />
+    <ListView Id="KeHoachThanhKiemTra_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="False">
+      <Columns>
+        <ColumnInfo Id="NgayThamDinh" SortIndex="0" SortOrder="Descending" Index="0" />
+        <ColumnInfo Id="CoSoSanXuatKinhDoanh" SortIndex="-1" SortOrder="None" Index="1" />
+        <ColumnInfo Id="LoaiThamDinh" Index="2" />
+        <ColumnInfo Id="CoQuanQuanLy" SortOrder="None" GroupIndex="-1" />
+      </Columns>
+    </ListView>
+    <ListView Id="KyBaoCao_DuLieuKiemTraCSSXKDs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="KyBaoCao_GiayChungNhans_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="KyBaoCao_HoatDongSanPhamTruyenThongs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="KyBaoCao_KeHoachThamDinhs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="KyBaoCao_KeHoachThanhKiemTras_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="KyBaoCao_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="False">
+      <Columns>
+        <ColumnInfo Id="BaoCaoNam" SortOrder="Ascending" GroupIndex="0" />
+      </Columns>
+    </ListView>
+    <ListView Id="KyBaoCao_VanBanChiDaos_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="LoaiHinhCoSo_CoSoSanXuatKinhDoanhs_ListView" IsGroupPanelVisible="True" />
+    <ListView Id="VanBanChiDao_ListView" IsGroupPanelVisible="True" />
+  </Views>
+</Application>

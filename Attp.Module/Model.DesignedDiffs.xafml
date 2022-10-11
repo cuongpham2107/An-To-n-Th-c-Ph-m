@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Attp">
+  <BOModel>
+    <Class Name="Attp.Module.BusinessObjects.V2.GiayChungNhanATTP">
+      <AppearanceRules>
+        <AppearanceRule Id="Error" FontColor="Black" FontStyle="Bold" Criteria="[CoHieuLucDen] &lt; GetDate(Now()) And [CoHieuLucDen] Is Not Null" TargetItems="*" BackColor="255, 128, 128" IsNewNode="True" />
+      </AppearanceRules>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="22.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <DetailView Id="DanhMucCoSoSanXuatKinhDoanh_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="59.35374149659864">
+            <LayoutGroup Id="DanhMucCoSoSanXuatKinhDoanh" Caption="Cơ sở sản xuất kinh doanh" RelativeSize="100">
+              <LayoutGroup Id="DanhMucCoSoSanXuatKinhDoanh_col1" RelativeSize="49.933598937583">
+                <LayoutItem Id="MaSo" RelativeSize="10.32258064516129" />
+                <LayoutItem Id="TenCoSo" RelativeSize="7.741935483870968" />
+                <LayoutItem Id="DanhMucCoQuanQuanLy" RelativeSize="7.741935483870968" Index="2" />
+                <LayoutItem Id="LoaiHinhCoSoSanXuat" ViewItem="LoaiHinhCoSoSanXuat" Index="3" RelativeSize="7.741935483870968" IsNewNode="True" />
+                <LayoutItem Id="DiaChi" ViewItem="DiaChi" Index="4" RelativeSize="7.741935483870968" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="DienThoai" RelativeSize="7.741935483870968" Index="5" />
+                <LayoutItem Id="Fax" RelativeSize="7.741935483870968" Index="6" />
+                <LayoutItem Id="Email" RelativeSize="7.741935483870968" Index="7" />
+                <LayoutItem Id="TenSanPham" ViewItem="TenSanPham" Index="8" RelativeSize="7.741935483870968" IsNewNode="True" />
+                <LayoutItem Id="HeThongQuanLyChatLuong" RelativeSize="7.741935483870968" Index="9" />
+                <LayoutItem Id="GhiChu" ViewItem="GhiChu" Index="10" RelativeSize="20" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="DanhMucCoSoSanXuatKinhDoanh_col2" RelativeSize="50.066401062417">
+                <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="31.29032258064516" IsNewNode="True">
+                  <LayoutItem Id="NgayThamDinhGanNhat" ViewItem="NgayThamDinhGanNhat" Index="0" RelativeSize="50" IsNewNode="True" />
+                  <LayoutItem Id="KetQuaThamDinh" ViewItem="KetQuaThamDinh" Index="1" RelativeSize="50" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="NgayThamDinhGanNhat" RelativeSize="12.5" Index="0" Removed="True" />
+                <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="28.70967741935484" IsNewNode="True">
+                  <LayoutItem Id="NgayThanhKiemTra" ViewItem="NgayThanhKiemTra" Index="0" RelativeSize="50" IsNewNode="True" />
+                  <LayoutItem Id="KetQuaThanhKiemTra" ViewItem="KetQuaThanhKiemTra" Index="1" RelativeSize="50" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="KetQuaThamDinh" RelativeSize="9.375" Index="1" Removed="True" />
+                <LayoutItem Id="NgayThanhKiemTra" RelativeSize="9.375" Index="1" Removed="True" />
+                <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Index="2" RelativeSize="40" IsNewNode="True">
+                  <LayoutItem Id="ThoihanGiaychungnhanHientai" ViewItem="ThoihanGiaychungnhanHientai" Index="0" RelativeSize="35.16483516483517" IsNewNode="True" />
+                  <LayoutItem Id="CoGiayChungNhanKhong" ViewItem="CoGiayChungNhanKhong" Index="1" RelativeSize="64.83516483516483" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="KetQuaThanhKiemTra" RelativeSize="8.108108108108109" Index="2" Removed="True" />
+                <LayoutItem Id="ThoihanGiaychungnhanHientai" ViewItem="ThoihanGiaychungnhanHientai" Index="2" RelativeSize="8.108108108108109" Removed="True" />
+                <LayoutItem Id="CoGiayChungNhanKhong" RelativeSize="7.121661721068249" Index="3" Removed="True" />
+                <LayoutItem Id="LoaiHinhCoSoSanXuat" RelativeSize="13.445378151260504" Removed="True" />
+                <LayoutItem Id="TenSanPham" RelativeSize="9.16030534351145" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="40.64625850340136" Index="1">
+            <LayoutGroup Id="SuPhatHanhChinhs" RelativeSize="100">
+              <LayoutItem Id="SuPhatHanhChinhs" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="KetQuaThamDinhCSSXKDs" RelativeSize="100">
+              <LayoutItem Id="KetQuaThamDinhCSSXKDs" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="KetQuaThanhKiemTraCSSXs" RelativeSize="100">
+              <LayoutItem Id="KetQuaThanhKiemTraCSSXs" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="GiayChungNhanATTPs" RelativeSize="100">
+              <LayoutItem Id="GiayChungNhanATTPs" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+          <LayoutGroup Id="SizeableEditors" Caption="Ghi chú" RelativeSize="27.580071174377224" Removed="True">
+            <LayoutItem Id="GhiChu" ViewItem="GhiChu" Index="0" RelativeSize="100" ShowCaption="False" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="FileDL_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="FileDL" Caption="File dữ liệu" RelativeSize="100">
+              <LayoutGroup Id="FileDL_col1" RelativeSize="50">
+                <LayoutItem Id="FileData" RelativeSize="6.2157221206581355" />
+                <LayoutItem Id="MoTa" RelativeSize="4.387568555758683" />
+                <LayoutItem Id="ThoiGian" RelativeSize="89.39670932358318" />
+              </LayoutGroup>
+              <LayoutGroup Id="FileDL_col2" RelativeSize="50">
+                <LayoutItem Id="KetQuaThamDinhCSSXKD" RelativeSize="6.2157221206581355" />
+                <LayoutItem Id="KetQuaThanhKiemTraCSSX" RelativeSize="4.387568555758683" />
+                <LayoutItem Id="SuPhatHanhChinh" RelativeSize="89.39670932358318" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="GiayChungNhanATTP_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="26.843657817109143">
+            <LayoutGroup Id="GiayChungNhanATTP" Caption="Giấy chứng nhận An toàn thực phẩm" RelativeSize="100">
+              <LayoutGroup Id="GiayChungNhanATTP_col1" RelativeSize="49.88610478359909">
+                <LayoutItem Id="SoCap" RelativeSize="24.285714285714285" />
+                <LayoutItem Id="DanhMucCoSoSanXuatKinhDoanh" RelativeSize="17.142857142857142" />
+                <LayoutItem Id="DanhMucCoQuanQuanLy" RelativeSize="17.142857142857142" />
+                <LayoutItem Id="NgayCap" RelativeSize="41.42857142857143" />
+              </LayoutGroup>
+              <LayoutGroup Id="GiayChungNhanATTP_col2" RelativeSize="50.11389521640091">
+                <LayoutItem Id="XepLoaiThamDinh" Index="0" RelativeSize="24.285714285714285" ViewItem="XepLoaiThamDinh" IsNewNode="True" />
+                <LayoutItem Id="XepLoaiThanhKiemTra" Index="1" RelativeSize="17.142857142857142" />
+                <LayoutItem Id="CoHieuLucDen" RelativeSize="17.142857142857142" Index="2" />
+                <LayoutItem Id="FileData" RelativeSize="17.142857142857142" Index="3" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutItem Id="BiThuHoi" ViewItem="BiThuHoi" Index="1" RelativeSize="3.5398230088495577" IsNewNode="True" />
+          <LayoutItem Id="NgayThuHoi" ViewItem="NgayThuHoi" Index="2" RelativeSize="3.5398230088495577" IsNewNode="True" />
+          <LayoutItem Id="LyDoThuHoi" ViewItem="LyDoThuHoi" Index="3" RelativeSize="3.5398230088495577" IsNewNode="True" />
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="54.12979351032448" Index="4">
+            <LayoutItem Id="AuditTrail" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="Bị thu hồi" RelativeSize="8.4070796460177" Index="5" Caption="Bị thu hồi">
+            <LayoutItem Id="LyDoThuHoi" RelativeSize="100" Index="0" Removed="True" />
+            <LayoutItem Id="NgayThuHoi" RelativeSize="48.38709677419355" Index="0" Removed="True" />
+            <LayoutItem Id="BiThuHoi" RelativeSize="34.883720930232556" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="KetQuaThamDinhCSSXKD_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="22.12837837837838">
+            <LayoutGroup Id="KetQuaThamDinhCSSXKD" Caption="Kết quả thẩm định Cơ sở sản xuất" RelativeSize="100">
+              <LayoutGroup Id="KetQuaThamDinhCSSXKD_col1" RelativeSize="50">
+                <LayoutItem Id="Title" RelativeSize="36.95652173913044" />
+                <LayoutItem Id="LThamDinh" RelativeSize="26.08695652173913" />
+                <LayoutItem Id="NgayThamDinh" RelativeSize="36.95652173913044" />
+              </LayoutGroup>
+              <LayoutGroup Id="KetQuaThamDinhCSSXKD_col2" RelativeSize="50">
+                <LayoutItem Id="DanhMucCoQuanQuanLy" RelativeSize="26.08695652173913" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="38.851351351351354">
+            <LayoutItem Id="Ghichu" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="KetQuaThanhKiemTraCSSX_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="22.12837837837838">
+            <LayoutGroup Id="KetQuaThanhKiemTraCSSX" Caption="Kết quả thanh kiểm tra Cơ sở sản xuất" RelativeSize="100">
+              <LayoutGroup Id="KetQuaThanhKiemTraCSSX_col1" RelativeSize="50">
+                <LayoutItem Id="Title" RelativeSize="36.95652173913044" />
+                <LayoutItem Id="LThamDinh" RelativeSize="26.08695652173913" />
+              </LayoutGroup>
+              <LayoutGroup Id="KetQuaThanhKiemTraCSSX_col2" RelativeSize="50">
+                <LayoutItem Id="DanhMucCoSoSanXuatKinhDoanh" RelativeSize="36.95652173913044" />
+                <LayoutItem Id="DanhMucCoQuanQuanLy" RelativeSize="26.08695652173913" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="38.851351351351354">
+            <LayoutItem Id="Ghichu" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="KyBaoCaoThang_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="22.635135135135137">
+            <LayoutGroup Id="KyBaoCaoThang" Caption="Báo cáo tháng" RelativeSize="100">
+              <LayoutGroup Id="KyBaoCaoThang_col1" RelativeSize="50">
+                <LayoutItem Id="Nam" RelativeSize="36.95652173913044" />
+                <LayoutItem Id="Thang" RelativeSize="26.08695652173913" />
+                <LayoutItem Id="TenKyBaoCao" RelativeSize="36.95652173913044" />
+              </LayoutGroup>
+              <LayoutGroup Id="KyBaoCaoThang_col2" RelativeSize="50">
+                <LayoutItem Id="KyBaoCaoNam" RelativeSize="36.95652173913044" />
+                <LayoutItem Id="KyBaoCaoSauThang" RelativeSize="26.08695652173913" />
+                <LayoutItem Id="KyBaoCaoQuy" RelativeSize="36.95652173913044" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SuPhatHanhChinh_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="28.87624466571835">
+            <LayoutGroup Id="SuPhatHanhChinh" RelativeSize="100">
+              <LayoutGroup Id="SuPhatHanhChinh_col1" RelativeSize="49.926793557833086">
+                <LayoutItem Id="DanhMucCoSoSanXuatKinhDoanh" RelativeSize="20.73170731707317" />
+                <LayoutItem Id="DanhMucCoQuanQuanLy" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="XuLyViPham" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="HanhViViPham" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="SoTienPhat" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="TongSoMauLay" RelativeSize="20.73170731707317" />
+              </LayoutGroup>
+              <LayoutGroup Id="SuPhatHanhChinh_col2" RelativeSize="50.073206442166914">
+                <LayoutItem Id="SoMauViPham" RelativeSize="20.73170731707317" />
+                <LayoutItem Id="ChiTieuViPham" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="KetQuaThamDinhCSSXKD" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="KetQuaThanhKiemTraCSSX" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="NgaySuPhat" RelativeSize="35.36585365853659" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="35.41963015647226">
+            <LayoutItem Id="LyDo" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="FileDLs_Group" Direction="Vertical" RelativeSize="35.70412517780939">
+            <LayoutItem Id="FileDLs" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

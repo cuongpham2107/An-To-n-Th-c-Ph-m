@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Quản lý cấp GCN ATTP">
+  <ActionDesign>
+    <Actions>
+      <Action Id="ChangePasswordByUser" Caption="Đổi mật khẩu" />
+      <Action Id="Close" Caption="Đóng" />
+      <Action Id="Delete" Caption="Xóa" />
+      <Action Id="DialogClose" Caption="Đóng" />
+      <Action Id="Link" Caption="Liên kết" />
+      <Action Id="Logon" Caption="Đăng nhập" />
+      <Action Id="New" Caption="Tạo mới" />
+      <Action Id="Refresh" Caption="Tải lại" />
+      <Action Id="ReportViewerDialogControllerV2_Close" Caption="Đóng" />
+      <Action Id="ReportWizard_Close" Caption="Đóng" />
+      <Action Id="ResetPassword" Caption="Đặt lại mật khẩu" />
+      <Action Id="Save" Caption="Lưu" />
+      <Action Id="SaveAndClose" Caption="Lưu và đóng" />
+      <Action Id="SaveAndNew" Caption="Lưu và tạo mới" />
+      <Action Id="ShowInReportV2" Caption="Xuất báo cáo" ToolTip="Xuất các bản ghi đang chọn vào báo cáo" />
+      <Action Id="Unlink" Caption="Bỏ liên kết" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="Close" Caption="Đóng" />
+      <ActionContainer Id="Link" Caption="Liên kết" />
+      <ActionContainer Id="Save" Caption="Lưu" />
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="Attp.Module.BusinessObjects.ApplicationUser" Caption="Tài khoản" />
+    <Class Name="DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mật Khẩu" />
+        <Member Name="UserName" Caption="Tài Khoản" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ResetPasswordParameters">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mật Khẩu" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.AuditDataItemPersistent">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Tài Khoản" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.ModelDifference">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Tài Khoản" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyObjectPermissionsObject">
+      <OwnMembers>
+        <Member Name="DeleteState" Caption="Xóa" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyTypePermissionObject">
+      <OwnMembers>
+        <Member Name="DeleteState" Caption="Xóa" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Tài Khoản" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="DialogButtons">
+      <LocalizationItem Name="Close" Value="Đóng" />
+      <LocalizationItem Name="Delete" Value="Xóa" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ObjectAccess">
+        <LocalizationItem Name="Delete" Value="Xóa" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.SecurityRequestOperations">
+        <LocalizationItem Name="Delete" Value="Xóa" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Messages">
+      <LocalizationItem Name="Delete" Value="Xóa" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Security">
+      <LocalizationGroup Name="Account">
+        <LocalizationItem Name="UserName" Value="Tài Khoản" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="Quản trị">
+        <Items>
+          <Item Id="ApplicationUser_ListView" Caption="Tài khoản" />
+          <Item Id="MyDetails" Caption="Chi tiết tài khoản" />
+          <Item Id="PermissionPolicyRole_ListView" Caption="Nhóm người dùng" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Caption="In ấn - xuất dữ liệu" />
+    </Items>
+  </NavigationItems>
+  <Validation>
+    <Contexts>
+      <ValidationContext Id="Delete" Caption="Xóa" />
+      <ValidationContext Id="Save" Caption="Lưu" />
+    </Contexts>
+  </Validation>
+  <Views>
+    <DetailView Id="AuthenticationStandardLogonParameters_Blazor_DetailView">
+      <Items>
+        <StaticText Id="LogonText" Text="Nhập tên tài khoản và mật khẩu" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ResetPasswordParameters_Blazor_DetailView" Caption="Đặt lại mật khẩu" />
+    <DetailView Id="ResetPasswordParameters_DetailView" Caption="Đặt lại mật khẩu" />
+  </Views>
+</Application>

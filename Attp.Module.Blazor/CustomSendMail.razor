@@ -1,0 +1,11 @@
+﻿@using Attp.Module.BusinessObjects.V2
+
+@code {
+    public static RenderFragment<object> Create() => (item) =>
+        {
+            DanhMucCoSoSanXuatKinhDoanh contact = item as DanhMucCoSoSanXuatKinhDoanh;
+
+            return@<a href="mailto:@contact.Email" target="_blank" onclick="event.prevent" >Gửi Mail @contact.Email</a>;
+
+        };
+}

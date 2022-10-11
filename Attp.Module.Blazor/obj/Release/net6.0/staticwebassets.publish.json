@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FKV7f5tJ8JwPIqI43VJj/I3fjPAKZGwxnS4YyNYkv5k=",
+  "Source": "Attp.Module.Blazor",
+  "BasePath": "_content/Attp.Module.Blazor",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
