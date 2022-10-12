@@ -17593,11 +17593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\Attp.Blazor.Server.csproj",
+      "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\Attp.Blazor.Server.csproj",
       "projectName": "Attp.Blazor.Server",
-      "projectPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\Attp.Blazor.Server.csproj",
+      "projectPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\Attp.Blazor.Server.csproj",
       "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\obj\\publish\\win-x64\\",
+      "outputPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -17619,11 +17619,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj": {
-              "projectPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj"
+            "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj": {
+              "projectPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj"
             },
-            "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\Attp.Module.csproj": {
-              "projectPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\Attp.Module.csproj"
+            "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\Attp.Module.csproj": {
+              "projectPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\Attp.Module.csproj"
             }
           }
         }

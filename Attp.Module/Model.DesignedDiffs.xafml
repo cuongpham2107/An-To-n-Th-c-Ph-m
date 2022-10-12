@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="Attp">
   <BOModel>
+    <Class Name="Attp.Module.BusinessObjects.V2.DanhMucCoSoSanXuatKinhDoanh">
+      <AppearanceRules>
+        <AppearanceRule Id="XLThamDinh" TargetItems="KetQuaThamDinh" Criteria="[KetQuaThamDinh] = ##Enum#Attp.Module.BusinessObjects.V2.XLoai,C#" BackColor="255, 255, 128" FontColor="Black" IsNewNode="True" />
+        <AppearanceRule Id="XLThanhKiemTra" FontColor="Black" BackColor="255, 255, 128" TargetItems="KetQuaThanhKiemTra" Criteria="[KetQuaThanhKiemTra] = ##Enum#Attp.Module.BusinessObjects.V2.XLoai,C#" IsNewNode="True" />
+      </AppearanceRules>
+    </Class>
     <Class Name="Attp.Module.BusinessObjects.V2.GiayChungNhanATTP">
       <AppearanceRules>
         <AppearanceRule Id="Error" FontColor="Black" FontStyle="Bold" Criteria="[CoHieuLucDen] &lt; GetDate(Now()) And [CoHieuLucDen] Is Not Null" TargetItems="*" BackColor="255, 128, 128" IsNewNode="True" />
@@ -102,32 +108,32 @@
     <DetailView Id="GiayChungNhanATTP_DetailView">
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
-          <LayoutGroup Id="SimpleEditors" RelativeSize="26.843657817109143">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="25.041459369817577">
             <LayoutGroup Id="GiayChungNhanATTP" Caption="Giấy chứng nhận An toàn thực phẩm" RelativeSize="100">
-              <LayoutGroup Id="GiayChungNhanATTP_col1" RelativeSize="49.88610478359909">
-                <LayoutItem Id="SoCap" RelativeSize="24.285714285714285" />
-                <LayoutItem Id="DanhMucCoSoSanXuatKinhDoanh" RelativeSize="17.142857142857142" />
-                <LayoutItem Id="DanhMucCoQuanQuanLy" RelativeSize="17.142857142857142" />
-                <LayoutItem Id="NgayCap" RelativeSize="41.42857142857143" />
+              <LayoutGroup Id="GiayChungNhanATTP_col1" RelativeSize="49.800796812749006">
+                <LayoutItem Id="SoCap" RelativeSize="28.571428571428573" />
+                <LayoutItem Id="DanhMucCoSoSanXuatKinhDoanh" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="DanhMucCoQuanQuanLy" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="NgayCap" RelativeSize="28.571428571428573" />
+                <LayoutItem Id="XepLoaiThamDinh" RelativeSize="23.529411764705884" Removed="True" />
+                <LayoutItem Id="XepLoaiThanhKiemTra" RelativeSize="20" Removed="True" />
               </LayoutGroup>
-              <LayoutGroup Id="GiayChungNhanATTP_col2" RelativeSize="50.11389521640091">
-                <LayoutItem Id="XepLoaiThamDinh" Index="0" RelativeSize="24.285714285714285" ViewItem="XepLoaiThamDinh" IsNewNode="True" />
-                <LayoutItem Id="XepLoaiThanhKiemTra" Index="1" RelativeSize="17.142857142857142" />
-                <LayoutItem Id="CoHieuLucDen" RelativeSize="17.142857142857142" Index="2" />
-                <LayoutItem Id="FileData" RelativeSize="17.142857142857142" Index="3" />
+              <LayoutGroup Id="GiayChungNhanATTP_col2" RelativeSize="50.199203187250994">
+                <LayoutItem Id="XepLoaiThamDinh" ViewItem="XepLoaiThamDinh" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
+                <LayoutItem Id="XepLoaiThanhKiemTra" ViewItem="XepLoaiThanhKiemTra" Index="1" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutItem Id="CoHieuLucDen" RelativeSize="21.428571428571427" Index="2" />
+                <LayoutItem Id="FileData" RelativeSize="28.571428571428573" Index="3" />
+                <LayoutItem Id="LyDoThuHoi" RelativeSize="20" Index="3" Removed="True" />
+                <LayoutItem Id="BiThuHoi" Removed="True" />
+                <LayoutItem Id="NgayThuHoi" RelativeSize="15" Removed="True" />
               </LayoutGroup>
             </LayoutGroup>
           </LayoutGroup>
-          <LayoutItem Id="BiThuHoi" ViewItem="BiThuHoi" Index="1" RelativeSize="3.5398230088495577" IsNewNode="True" />
-          <LayoutItem Id="NgayThuHoi" ViewItem="NgayThuHoi" Index="2" RelativeSize="3.5398230088495577" IsNewNode="True" />
-          <LayoutItem Id="LyDoThuHoi" ViewItem="LyDoThuHoi" Index="3" RelativeSize="3.5398230088495577" IsNewNode="True" />
-          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="54.12979351032448" Index="4">
+          <LayoutItem Id="BiThuHoi" ViewItem="BiThuHoi" Index="1" RelativeSize="4.1459369817578775" IsNewNode="True" />
+          <LayoutItem Id="NgayThuHoi" ViewItem="NgayThuHoi" Index="2" RelativeSize="4.1459369817578775" IsNewNode="True" />
+          <LayoutItem Id="LyDoThuHoi" ViewItem="LyDoThuHoi" Index="3" RelativeSize="4.1459369817578775" IsNewNode="True" />
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="62.52072968490879" Index="4">
             <LayoutItem Id="AuditTrail" RelativeSize="100" />
-          </LayoutGroup>
-          <LayoutGroup Id="Bị thu hồi" RelativeSize="8.4070796460177" Index="5" Caption="Bị thu hồi">
-            <LayoutItem Id="LyDoThuHoi" RelativeSize="100" Index="0" Removed="True" />
-            <LayoutItem Id="NgayThuHoi" RelativeSize="48.38709677419355" Index="0" Removed="True" />
-            <LayoutItem Id="BiThuHoi" RelativeSize="34.883720930232556" Removed="True" />
           </LayoutGroup>
         </LayoutGroup>
       </Layout>

@@ -23,16 +23,6 @@ namespace Attp.Module.BusinessObjects.V2
 	[ListViewFindPanel(true)]
 	[LookupEditorMode(LookupEditorMode.AllItemsWithSearch)]
 	[NavigationItem(Common.CategoryMenuItem)]
-	//[ListViewFilter("Tất cả cơ sở", "", Index = 0)]
-	//[ListViewFilter("Cơ sở có giấy chứng nhận", "[CoGiayChungNhanKhong]=true", Index = 1)]
-	//[ListViewFilter("Cơ sở có giấy chứng nhận dưới 6 tháng", "DateDiffMonth(Today(),[ThoihanGiaychungnhanHientai])<6", Index = 2)]
-	//[ListViewFilter("Cơ sở chưa có giấy chứng nhận", "[CoGiayChungNhanKhong]=false", Index = 3)]
-	[Appearance("KhongGCN", AppearanceItemType = "ViewItem", TargetItems = "CoGiayChungNhanKhong,TenCoSo",
-	Criteria = "CoGiayChungNhanKhong=False", Context = "ListView", FontColor = "Red", Priority = 3)]
-	[Appearance("CoGCN", AppearanceItemType = "ViewItem", TargetItems = "CoGiayChungNhanKhong, TenCoSo",
-	Criteria = "CoGiayChungNhanKhong=True", Context = "ListView", FontColor = "Green", Priority = 1)]
-	[Appearance("SaphethanGCN", AppearanceItemType = "ViewItem", TargetItems = "CoGiayChungNhanKhong, TenCoSo",
-	Criteria = "DateDiffMonth(Today(),[ThoihanGiaychungnhanHientai])<6", Context = "ListView", FontColor = "Orange", Priority = 2)]
 
 	public class DanhMucCoSoSanXuatKinhDoanh : BaseObject
     { 
@@ -55,7 +45,7 @@ namespace Attp.Module.BusinessObjects.V2
 			thanhkiemtra = KetQuaThanhKiemTraCSSXs.OrderByDescending(k => k.NgayThanhKiemTra).FirstOrDefault();
 		}
 
-        string maSo;
+		string maSo;
 		[XafDisplayName("Mã số")]
 		[Size(SizeAttribute.DefaultStringMappingFieldSize)]
 		public string MaSo
@@ -208,43 +198,47 @@ namespace Attp.Module.BusinessObjects.V2
 			}
 		}
 
-
-		[PersistentAlias("")]
+		bool coGiayChungNhanKhong;
 		[XafDisplayName("GCN có hiệu lực")]
 		[CaptionsForBoolValues("Có", "Không")]
+		[ModelDefault("AllowEdit", "False")]
 		public bool CoGiayChungNhanKhong
 		{
 			get
 			{
 				if (!IsLoading && !IsSaving)
 				{
-					var last = this.GiayChungNhanATTPs.OrderByDescending(i => i.CoHieuLucDen).FirstOrDefault();
-					if (last == null) return false;
-					if (last.BiThuHoi) return false;
-					if (last.CoHieuLucDen > DateTime.Today)
+					var giaychungnhan = GiayChungNhanATTPs.OrderByDescending(a => a.CoHieuLucDen).FirstOrDefault();
+					if (giaychungnhan == null)
+						return false;
+					if (giaychungnhan.BiThuHoi == true)
+						return false;
+					if (giaychungnhan.CoHieuLucDen > DateTime.Today)
 						return true;
 				}
 				return false;
 			}
+			set => SetPropertyValue(nameof(CoGiayChungNhanKhong), ref coGiayChungNhanKhong, value);
 		}
 
-		
-		[PersistentAlias("")]
+
+		DateTime? thoiHanGiayChungNhanHienTai;
 		[XafDisplayName("Thời hạn GCN hiện tại")]
+		[ModelDefault("AllowEdit", "False")]
 		public DateTime? ThoihanGiaychungnhanHientai
 		{
 			get
 			{
-				//EvaluateAlias(nameof(ThoihanGiaychungnhanHientai));
 				if (!IsLoading && !IsSaving)
 				{
-					var last = this.GiayChungNhanATTPs.OrderByDescending(i => i.CoHieuLucDen).FirstOrDefault();
-					if (last != null)
-						if (!last.BiThuHoi)
-							return last.CoHieuLucDen;
+					var giaychungnhan = GiayChungNhanATTPs.OrderByDescending(a => a.CoHieuLucDen).FirstOrDefault();
+					if (giaychungnhan != null)
+						if (giaychungnhan.BiThuHoi == false)
+							return giaychungnhan.CoHieuLucDen;
 				}
 				return null;
 			}
+			set => SetPropertyValue(nameof(ThoihanGiaychungnhanHientai), ref thoiHanGiayChungNhanHienTai, value);
 		}
 
 		string ghiChu;

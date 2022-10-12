@@ -13,7 +13,7 @@ namespace Attp.Module.BusinessObjects.V2
     [DefaultClassOptions]
     [ImageName("BO_Contact")]
     [XafDisplayName("Kết quả thẩm định")]
-    [DefaultProperty(nameof(DanhMucCoSoSanXuatKinhDoanh))]
+    [DefaultProperty(nameof(Title))]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [ListViewFindPanel(true)]
     [LookupEditorMode(LookupEditorMode.AllItemsWithSearch)]

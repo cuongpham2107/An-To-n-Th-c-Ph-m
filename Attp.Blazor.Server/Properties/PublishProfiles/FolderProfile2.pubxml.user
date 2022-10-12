@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\cuong\source\repos\AnToanThucPham\Attp.Blazor.Server\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-10-12T10:13:14.0986347Z;True|2022-10-12T16:21:25.8880327+07:00;True|2022-10-12T14:38:28.9618160+07:00;True|2022-10-12T14:15:10.5290853+07:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnectionString">
+      <Value>Integrated Security=SSPI%3bPooling=false%3bData Source=%28localdb%29\mssqllocaldb%3bInitial Catalog=AttpEasyTest</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

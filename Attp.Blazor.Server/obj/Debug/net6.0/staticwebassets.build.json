@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "ZVCGteieS/FYjduKdcngMb8jD820SusU/NlRHlqkTBc=",
+  "Hash": "mxXxKrz/ADI9roY4ASxSPkdFapTkHOKukpPyMZCX19I=",
   "Source": "Attp.Blazor.Server",
   "BasePath": "_content/Attp.Blazor.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj",
       "Version": 2,
       "Source": "Attp.Module.Blazor",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,7 +22,7 @@
     {
       "Name": "Attp.Blazor.Server\\wwwroot",
       "Source": "Attp.Blazor.Server",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "Pattern": "**"
     }
@@ -3616,10 +3616,10 @@
       "OriginalItemSpec": "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.expressapp.office.blazor\\22.1.5\\staticwebassets\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\site.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -3633,10 +3633,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\blazing berry\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\blazing berry\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/blazing berry/bootstrap.min.css",
       "AssetKind": "All",
@@ -3650,10 +3650,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\blazing berry\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\cerulean\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\cerulean\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/cerulean/bootstrap.min.css",
       "AssetKind": "All",
@@ -3667,10 +3667,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\cerulean\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\cosmo\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\cosmo\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/cosmo/bootstrap.min.css",
       "AssetKind": "All",
@@ -3684,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\cosmo\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\cyborg\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\cyborg\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/cyborg/bootstrap.min.css",
       "AssetKind": "All",
@@ -3701,10 +3701,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\cyborg\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\darkly\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\darkly\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/darkly/bootstrap.min.css",
       "AssetKind": "All",
@@ -3718,10 +3718,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\darkly\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\default\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\default\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/default/bootstrap.min.css",
       "AssetKind": "All",
@@ -3735,10 +3735,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\default\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\flatly\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\flatly\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/flatly/bootstrap.min.css",
       "AssetKind": "All",
@@ -3752,10 +3752,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\flatly\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\journal\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\journal\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/journal/bootstrap.min.css",
       "AssetKind": "All",
@@ -3769,10 +3769,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\journal\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\litera\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\litera\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/litera/bootstrap.min.css",
       "AssetKind": "All",
@@ -3786,10 +3786,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\litera\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\lumen\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\lumen\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/lumen/bootstrap.min.css",
       "AssetKind": "All",
@@ -3803,10 +3803,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\lumen\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\minty\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\minty\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/minty/bootstrap.min.css",
       "AssetKind": "All",
@@ -3820,10 +3820,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\minty\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\office white\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\office white\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/office white/bootstrap.min.css",
       "AssetKind": "All",
@@ -3837,10 +3837,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\office white\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\pulse\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\pulse\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/pulse/bootstrap.min.css",
       "AssetKind": "All",
@@ -3854,10 +3854,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\pulse\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\purple\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\purple\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/purple/bootstrap.min.css",
       "AssetKind": "All",
@@ -3871,10 +3871,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\purple\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\sandstone\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\sandstone\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/sandstone/bootstrap.min.css",
       "AssetKind": "All",
@@ -3888,10 +3888,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\sandstone\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\simplex\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\simplex\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/simplex/bootstrap.min.css",
       "AssetKind": "All",
@@ -3905,10 +3905,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\simplex\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\sketchy\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\sketchy\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/sketchy/bootstrap.min.css",
       "AssetKind": "All",
@@ -3922,10 +3922,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\sketchy\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\slate\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\slate\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/slate/bootstrap.min.css",
       "AssetKind": "All",
@@ -3939,10 +3939,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\slate\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\solar\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\solar\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/solar/bootstrap.min.css",
       "AssetKind": "All",
@@ -3956,10 +3956,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\solar\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\spacelab\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\spacelab\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/spacelab/bootstrap.min.css",
       "AssetKind": "All",
@@ -3973,10 +3973,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\spacelab\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\superhero\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\superhero\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/superhero/bootstrap.min.css",
       "AssetKind": "All",
@@ -3990,10 +3990,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\superhero\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\united\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\united\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/united/bootstrap.min.css",
       "AssetKind": "All",
@@ -4007,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\united\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\css\\themes\\yeti\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\css\\themes\\yeti\\bootstrap.min.css",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "css/themes/yeti/bootstrap.min.css",
       "AssetKind": "All",
@@ -4024,10 +4024,10 @@
       "OriginalItemSpec": "wwwroot\\css\\themes\\yeti\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\favicon.ico",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -4041,10 +4041,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\images\\logo.png",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -4058,10 +4058,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\images\\Logo.svg",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "images/Logo.svg",
       "AssetKind": "All",
@@ -4075,10 +4075,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Logo.svg"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\images\\logobacgiang.png",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\images\\logobacgiang.png",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "images/logobacgiang.png",
       "AssetKind": "All",
@@ -4092,10 +4092,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logobacgiang.png"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "images/SplashScreen.svg",
       "AssetKind": "All",
@@ -4109,10 +4109,10 @@
       "OriginalItemSpec": "wwwroot\\images\\SplashScreen.svg"
     },
     {
-      "Identity": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\images\\SplashScreen.zip",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\images\\SplashScreen.zip",
       "SourceId": "Attp.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Attp.Blazor.Server",
       "RelativePath": "images/SplashScreen.zip",
       "AssetKind": "All",

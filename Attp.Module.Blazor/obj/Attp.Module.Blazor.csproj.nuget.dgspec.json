@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj": {}
+    "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj": {
+    "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj",
+        "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj",
         "projectName": "Attp.Module.Blazor",
-        "projectPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj",
+        "projectPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\Attp.Module.Blazor.csproj",
         "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module.Blazor\\obj\\",
+        "outputPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module.Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\Attp.Module.csproj": {
-                "projectPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\Attp.Module.csproj"
+              "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\Attp.Module.csproj": {
+                "projectPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\Attp.Module.csproj"
               }
             }
           }
@@ -115,21 +115,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
-        }
       }
     },
-    "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\Attp.Module.csproj": {
+    "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\Attp.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\Attp.Module.csproj",
+        "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\Attp.Module.csproj",
         "projectName": "Attp.Module",
-        "projectPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\Attp.Module.csproj",
+        "projectPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\Attp.Module.csproj",
         "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cuong\\source\\repos\\Attp\\Attp.Module\\obj\\",
+        "outputPath": "C:\\Users\\cuong\\source\\repos\\AnToanThucPham\\Attp.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -244,11 +239,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

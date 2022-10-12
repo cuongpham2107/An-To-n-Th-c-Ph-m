@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="GiayChungNhanATTP_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Bị thu hồi" RelativeSize="8.4070796460177" Index="5" Caption="Bị thu hồi">
+            <LayoutItem Id="LyDoThuHoi" RelativeSize="100" Index="0" Removed="True" />
+            <LayoutItem Id="NgayThuHoi" RelativeSize="48.38709677419355" Index="0" Removed="True" />
+            <LayoutItem Id="BiThuHoi" RelativeSize="34.883720930232556" Removed="True" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="GiayChungNhanATTP">
+              <LayoutGroup Id="GiayChungNhanATTP_col2">
+                <LayoutItem Id="XepLoaiThanhKiemTra" Index="1" RelativeSize="17.142857142857142" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

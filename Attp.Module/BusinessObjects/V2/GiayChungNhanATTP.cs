@@ -15,7 +15,6 @@ using System.Text;
 namespace Attp.Module.BusinessObjects.V2
 {
     [NavigationItem(Common.DataMenuItem)]
-    //[Appearance("HideDefaultId", TargetItems = "GiayChungNhanes", Visibility = ViewItemVisibility.Hide, Context = "Any")]
     [DefaultClassOptions]
 	[ImageName("BO_Contact")]
 	[XafDisplayName("Giấy chứng nhận")]
@@ -35,11 +34,6 @@ namespace Attp.Module.BusinessObjects.V2
             base.AfterConstruction();
 			
         }
-		protected override void OnSaving()
-		{
-			OnChanged(nameof(KyBaoCaoThang));
-		}
-
 		string soCap;
 		[XafDisplayName("Số giấy chứng nhận")]
 		[Size(SizeAttribute.DefaultStringMappingFieldSize)]
@@ -145,11 +139,9 @@ namespace Attp.Module.BusinessObjects.V2
 
 
 		#region Thu_hồi
-		const string _thuhoi = "Bị thu hồi";
-		bool biThuHoi;
+		bool bThuHoi;
 		[XafDisplayName("Bị thu hồi"), ToolTip("")]
 		[ModelDefault("AllowEdit", "False")]
-		[DetailViewLayout(_thuhoi)]
 		public bool BiThuHoi
 		{
 			get
@@ -163,11 +155,11 @@ namespace Attp.Module.BusinessObjects.V2
 				}		
 				return false;
             }
+			set => SetPropertyValue(nameof(BiThuHoi), ref bThuHoi, value);
 		}
 
 		DateTime ngayThuHoi;
 		[XafDisplayName("Ngày thu hồi"), ToolTip("")]
-		[DetailViewLayout(_thuhoi)]
 		public DateTime NgayThuHoi
 		{
 			get
@@ -186,7 +178,6 @@ namespace Attp.Module.BusinessObjects.V2
 
 		string lyDoThuHoi;
 		[XafDisplayName("Lý do thu hồi"), ToolTip("")]
-		[DetailViewLayout(_thuhoi)]
 		public string LyDoThuHoi
 		{
             get
@@ -219,15 +210,5 @@ namespace Attp.Module.BusinessObjects.V2
 			}
 		}
 	}
-
-	[DomainComponent]
-	public class ThuHoi
-	{
-		[XafDisplayName("Ngày thu hồi")]
-		public DateTime NgayThuHoi { get; set; } = DateTime.Now;
-
-		[XafDisplayName("Lý do thu hồi")]
-		public string LyDoThuHoi { get; set; }
-
-	}
+	
 }
